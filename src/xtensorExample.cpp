@@ -1,0 +1,29 @@
+
+#include "xtensor-r/rxarray.hpp"
+
+#include <xtensor/xio.hpp>
+#include <xtensor/xinfo.hpp>
+#include <xtensor/xarray.hpp>
+
+#include <Rcpp.h>
+
+//' @title First Example
+// [[Rcpp::export]]
+xt::rxarray<double> ex1(bool verbose=true) {
+    xt::xarray<double> ar({{1,2,3,4}, {2,2,22,2}});
+    return ar;
+}
+
+//' @title Second Example
+// [[Rcpp::export]]
+xt::rxarray<double> ex2(bool verbose=true) {
+    // one row, two column, three elements
+    std::vector<std::size_t> shape = {1, 2,3 };
+
+    xt::rxarray<double> ttt(shape, 0.0);
+    ttt(0, 1) = 332211;
+    if (verbose) Rcpp::Rcout << ttt << std::endl;
+
+    return ttt;
+}
+
