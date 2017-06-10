@@ -1,11 +1,16 @@
 Package: xtensorExample
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: Usage Examples for the 'xtensor' Package
 Version: 0.0.1
 Date: 2017-06-09
 Author: Dirk Eddelbuettel, 
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Description: One paragraph description of what the package does as one or more full sentences.
+Description: The 'xtensor' C++ library for numerical analysis with 
+ multi-dimensional array expressions is provided as a header-only
+ C++14 library. It offers an extensible expression system enabling 
+ lazy broadcasting; an API following the idioms of the C++ standard 
+ library; and tools to manipulate array expressions and build upon 
+ 'xtensor. This package assembles some simple examples.
 License: GPL (>= 2)
 Imports: Rcpp (>= 0.12.11)
 LinkingTo: Rcpp, xtensor

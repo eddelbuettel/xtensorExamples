@@ -7,14 +7,20 @@
 
 #include <Rcpp.h>
 
+//' First Example for 'xtensor'
+//'  
 //' @title First Example
+//' @param verbose A boolean variable indicating whether verbose output is desired.
 // [[Rcpp::export]]
 xt::rxarray<double> ex1(bool verbose=true) {
     xt::xarray<double> ar({{1,2,3,4}, {2,2,22,2}});
     return ar;
 }
 
+//' Secondg Example for 'xtensor'
+//'  
 //' @title Second Example
+//' @param verbose A boolean variable indicating whether verbose output is desired.
 // [[Rcpp::export]]
 xt::rxarray<double> ex2(bool verbose=true) {
     // one row, two column, three elements

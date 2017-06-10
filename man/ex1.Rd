@@ -6,3 +6,9 @@
 \usage{
 ex1(verbose = TRUE)
 }
+\arguments{
+\item{verbose}{A boolean variable indicating whether verbose output is desired.}
+}
+\description{
+First Example for 'xtensor'
+}
