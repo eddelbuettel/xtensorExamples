@@ -1,9 +1,9 @@
-Package: xtensorExample
+Package: xtensorExamples
 Type: Package
 Title: Usage Examples for the 'xtensor' Package
 Version: 0.0.1
 Date: 2017-06-09
-Author: Dirk Eddelbuettel, 
+Author: Dirk Eddelbuettel 
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Description: The 'xtensor' C++ library for numerical analysis with 
  multi-dimensional array expressions is provided as a header-only

@@ -1,20 +1,20 @@
-\name{xtensorExample-package}
-\alias{xtensorExample-package}
-\alias{xtensorExample}
+\name{xtensorExamples-package}
+\alias{xtensorExamples-package}
+\alias{xtensorExamples}
 \docType{package}
-\title{\packageTitle{xtensorExample}}
-\description{\packageDescription{xtensorExample}}
+\title{\packageTitle{xtensorExamples}}
+\description{\packageDescription{xtensorExamples}}
 \details{
-  The DESCRIPTION file: \packageDESCRIPTION{xtensorExample}
-  \packageIndices{xtensorExample}
+  The DESCRIPTION file: \packageDESCRIPTION{xtensorExamples}
+  \packageIndices{xtensorExamples}
 
   This section should provide a more detailed overview of how to use the
   package, including the most important functions.
 }
 \author{
-  \packageAuthor{xtensorExample}
+  \packageAuthor{xtensorExamples}
   
-  Maintainer: \packageMaintainer{xtensorExample}
+  Maintainer: \packageMaintainer{xtensorExamples}
 }
 \references{
   This optional section can contain literature or other references for
