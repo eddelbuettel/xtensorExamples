@@ -2,18 +2,26 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 #' First Example for 'xtensor'
-#'  
+#'
 #' @title First Example
 #' @param verbose A boolean variable indicating whether verbose output is desired.
 ex1 <- function(verbose = TRUE) {
     .Call(xtensorExamples_ex1, verbose)
 }
 
-#' Secondg Example for 'xtensor'
-#'  
+#' Second Example for 'xtensor'
+#'
 #' @title Second Example
 #' @param verbose A boolean variable indicating whether verbose output is desired.
 ex2 <- function(verbose = TRUE) {
     .Call(xtensorExamples_ex2, verbose)
+}
+
+#' Third Example for 'xtensor'
+#'
+#' @title Third Example
+#' @param a An integer array
+ex3 <- function(a) {
+    .Call(xtensorExamples_ex3, a)
 }
 

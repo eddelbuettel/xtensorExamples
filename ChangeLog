@@ -1,0 +1,16 @@
+2017-06-13  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .travis.yml: Add Travis CI support via run.sh from r-travis
+	* configure: Added to aid with C++14 on Travis CI
+
+	* src/xtensorExamples.cpp (ex3): Added third example
+	* man/*: Minimal help files
+
+	* tests/simpleTests.R: Very simple tests added
+
+	* .editorconfig: Added
+
+2017-06-09  Dirk Eddelbuettel  <edd@debian.org>
+
+	* inst/include/*: Initial version starting from xtensor-r
+	* src/*: Idem

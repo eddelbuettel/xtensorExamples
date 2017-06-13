@@ -28,10 +28,22 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// ex3
+xt::rxarray<int> ex3(xt::rxarray<int> a);
+RcppExport SEXP xtensorExamples_ex3(SEXP aSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< xt::rxarray<int> >::type a(aSEXP);
+    rcpp_result_gen = Rcpp::wrap(ex3(a));
+    return rcpp_result_gen;
+END_RCPP
+}
 
 static const R_CallMethodDef CallEntries[] = {
     {"xtensorExamples_ex1", (DL_FUNC) &xtensorExamples_ex1, 1},
     {"xtensorExamples_ex2", (DL_FUNC) &xtensorExamples_ex2, 1},
+    {"xtensorExamples_ex3", (DL_FUNC) &xtensorExamples_ex3, 1},
     {NULL, NULL, 0}
 };
 

@@ -8,7 +8,7 @@
 #include <Rcpp.h>
 
 //' First Example for 'xtensor'
-//'  
+//'
 //' @title First Example
 //' @param verbose A boolean variable indicating whether verbose output is desired.
 // [[Rcpp::export]]
@@ -17,14 +17,14 @@ xt::rxarray<double> ex1(bool verbose=true) {
     return ar;
 }
 
-//' Secondg Example for 'xtensor'
-//'  
+//' Second Example for 'xtensor'
+//'
 //' @title Second Example
 //' @param verbose A boolean variable indicating whether verbose output is desired.
 // [[Rcpp::export]]
 xt::rxarray<double> ex2(bool verbose=true) {
     // one row, two column, three elements
-    std::vector<std::size_t> shape = {1, 2,3 };
+    std::vector<std::size_t> shape = {1, 2, 3};
 
     xt::rxarray<double> ttt(shape, 0.0);
     ttt(0, 1) = 332211;
@@ -33,3 +33,12 @@ xt::rxarray<double> ex2(bool verbose=true) {
     return ttt;
 }
 
+//' Third Example for 'xtensor'
+//'
+//' @title Third Example
+//' @param a An integer array
+// [[Rcpp::export]]
+xt::rxarray<int> ex3(xt::rxarray<int> a) {
+    a(0, 0) = 42;
+    return a;
+}

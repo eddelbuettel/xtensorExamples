@@ -10,5 +10,5 @@ ex2(verbose = TRUE)
 \item{verbose}{A boolean variable indicating whether verbose output is desired.}
 }
 \description{
-Secondg Example for 'xtensor'
+Second Example for 'xtensor'
 }
